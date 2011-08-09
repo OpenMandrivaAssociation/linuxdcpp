@@ -34,6 +34,7 @@ BuildRequires:	libglade2.0-devel >= 2.4
 BuildRequires:	bzip2-devel
 BuildRequires:	zlib-devel
 BuildRequires:	png-devel
+BuildRequires:	boost-devel
 BuildRequires:	freetype2-devel
 BuildRequires:	openssl-devel
 BuildRequires:	scons
