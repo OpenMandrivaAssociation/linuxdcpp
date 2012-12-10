@@ -75,3 +75,36 @@ rm -rf %{buildroot}
 %{_iconsdir}/hicolor/*/*/%{name}.*
 %{_datadir}/applications/%{name}.desktop
 
+
+
+%changelog
+* Tue Aug 09 2011 Andrey Bondrov <abondrov@mandriva.org> 1.1.0-1mdv2012.0
++ Revision: 693736
+- Fix BuildRequires
+- imported package linuxdcpp
+
+
+* Tue Aug 09 2011 Andrey Bondrov <bondrov@math.dvgu.ru> 1.1.0-1mdv2010.2
+- 1.1.0
+
+* Sat Mar 07 2009 Anssi Hannula <anssi@zarb.org> 1.0.3-1plf2009.1
+- new version
+
+* Tue Feb 05 2008 Anssi Hannula <anssi@zarb.org> 1.0.1-1plf2008.1
+- 1.0.1
+
+* Thu Nov 01 2007 Anssi Hannula <anssi@zarb.org> 1.0.0-1plf2008.1
+- 1.0.0
+
+* Fri Mar 09 2007 Anssi Hannula <anssi@zarb.rog> 0-0.20070309.1plf2007.1
+- new snapshot
+- author streamlined naming, rename pkg to match
+
+* Thu Oct 26 2006 Anssi Hannula <anssi@zarb.rog> 0-20061026.1plf2007.0
+- new snapshot
+
+* Thu Aug 31 2006 Anssi Hannula <anssi@zarb.rog> 0-20060831.1plf2007.0
+- new snapshot
+
+* Fri Aug 11 2006 Anssi Hannula <anssi@zarb.org> 0-20060811.1plf2007.0
+- initial PLF release
