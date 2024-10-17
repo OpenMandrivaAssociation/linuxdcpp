@@ -19,7 +19,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		Networking/File transfer
-URL:		http://launchpad.net/linuxdcpp/
+URL:		https://launchpad.net/linuxdcpp/
 %if %{snapshot}
 Source:		%{name}-%{snapshot}.tar.bz2
 %else
