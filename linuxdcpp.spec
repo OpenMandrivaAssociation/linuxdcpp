@@ -4,9 +4,9 @@
 %define rel	1
 
 %if %{snapshot}
-%define release	%mkrel 0.%{snapshot}.%{rel}
+%define release 0.%{snapshot}.%{rel}.1
 %else
-%define release %mkrel %{rel}
+%define release %{rel}.1
 %endif
 
 # for menu
